@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="16.777" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="DISPLAY" value="needs-to-be-defined"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="MINGW_CHOST" value="x86_64-w64-mingw32"/>
+    <property name="LOGONSERVER" value="\\DLUADS2"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_66\jre"/>
+    <property name="ACLOCAL_PATH" value="C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal"/>
+    <property name="MSYSTEM" value="MINGW64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="PWD" value="C:/Users/vtyag2/Desktop/Test_Automation/Jenkins"/>
+    <property name="TVT" value="C:\Program Files (x86)\Lenovo"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_66\jre\lib\endorsed"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="=::" value="::\"/>
+    <property name="USERDOMAIN" value="SAPIENT"/>
+    <property name="ORIGINAL_PATH" value="C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\vtyag2\bin;C:\Ruby22-x64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;D:\Softwares\Selenium\apache-maven-3.3.9\bin;C:\Program Files\nodejs;C:\Program Files (x86)\scala\bin;C:\Program Files (x86)\HP\LeanFT\bin;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\Git\cmd;C:\Program Files\PuTTY;C:\Users\vtyag2\AppData\Local\Programs\Python\Python35\Scripts;C:\Users\vtyag2\AppData\Local\Programs\Python\Python35;C:\Program Files\Java\jdk1.8.0_66\bin;C:\Users\vtyag2\AppData\Roaming\npm;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Users\vtyag2\Desktop\Selenium\Training\Drivers\geckodriver"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="PKG_CONFIG_PATH" value="C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.version" value="1.8.0_66"/>
+    <property name="JOB_NAME" value="DataDriverTestAutomationFramework"/>
+    <property name="COMPUTERNAME" value="DLUVTYAG268797"/>
+    <property name="SYSTEMDRIVE" value="C:"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="CONFIG_SITE" value="C:/Program Files/Git/mingw64/etc/config.site"/>
+    <property name="user.name" value="vtyag2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Users\vtyag2\AppData\Local"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/DataDriverTestAutomationFramework/6/display/redirect?page=changes"/>
+    <property name="MSYSTEM_CARCH" value="x86_64"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="INFOPATH" value="C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="BUILD_TAG" value="jenkins-DataDriverTestAutomationFramework-6"/>
+    <property name="TERM" value="xterm"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="PATH" value="C:\Program Files\Java\jdk1.8.0_66/bin;C:\Users\vtyag2\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\vtyag2\bin;C:\Ruby22-x64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;D:\Softwares\Selenium\apache-maven-3.3.9\bin;C:\Program Files\nodejs;C:\Program Files (x86)\scala\bin;C:\Program Files (x86)\HP\LeanFT\bin;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\Git\cmd;C:\Program Files\PuTTY;C:\Users\vtyag2\AppData\Local\Programs\Python\Python35\Scripts;C:\Users\vtyag2\AppData\Local\Programs\Python\Python35;C:\Program Files\Java\jdk1.8.0_66\bin;C:\Users\vtyag2\AppData\Roaming\npm;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Users\vtyag2\Desktop\Selenium\Training\Drivers\geckodriver;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven33Main D:\Softwares\Selenium\apache-maven-3.3.9 C:\Users\vtyag2\.jenkins\war\WEB-INF\lib\remoting-3.10.jar C:\Users\vtyag2\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-interceptor-1.12-alpha-1.jar C:\Users\vtyag2\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 55109"/>
+    <property name="JENKINS_SERVER_COOKIE" value="59330f2f50c0bed5"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="PLINK_PROTOCOL" value="ssh"/>
+    <property name="MANPATH" value="C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man"/>
+    <property name="java.io.tmpdir" value="C:\Users\vtyag2\AppData\Local\Temp\"/>
+    <property name="APPDATA" value="C:\Users\vtyag2\AppData\Roaming"/>
+    <property name="user.language" value="en"/>
+    <property name="SYSTEMROOT" value="C:\Windows"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="IBM_JAVA_OPTIONS" value="-Xrunjvmhook -Xbootclasspath/a:&quot;C:\Program Files (x86)\HP\LeanFT\bin\java_shared\classes;C:\Program Files (x86)\HP\LeanFT\bin\java_shared\classes\jasmine.jar&quot;"/>
+    <property name="SHLVL" value="1"/>
+    <property name="M2_HOME" value="D:\Softwares\Selenium\apache-maven-3.3.9"/>
+    <property name="COMMONPROGRAMFILES" value="C:\Program Files\Common Files"/>
+    <property name="env" value="qa1"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#6"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="%PATH%" value="C:\Ruby22-x64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;D:\Softwares\Selenium\apache-maven-3.3.9\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\scala\bin;C:\Program Files (x86)\HP\LeanFT\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;%SCALA_HOME%\bin"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="HUDSON_SERVER_COOKIE" value="59330f2f50c0bed5"/>
+    <property name="PS1" value="\[\033]0;$TITLEPREFIX:${PWD//[^[:ascii:]]/?}\007\]\n\[\033[32m\]\u@\h \[\033[35m\]MINGW64 \[\033[33m\]\w\[\033[36m\]`__git_ps1`\[\033[0m\]\n$ "/>
+    <property name="MAVEN_HOME" value="D:\Softwares\Selenium\apache-maven-3.3.9"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\vtyag2\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="ST_INSTALL_PATH" value="C:\Program Files (x86)\HP\LeanFT\"/>
+    <property name="ORIGINAL_TEMP" value="C:/Users/vtyag2/AppData/Local/Temp"/>
+    <property name="MVN_HOME" value="D:\Softwares\Selenium\apache-maven-3.3.9"/>
+    <property name="HOMEPATH" value="\Users\vtyag2"/>
+    <property name="TMPDIR" value="C:\Users\vtyag2\AppData\Local\Temp"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="=A:" value="A:\"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="6"/>
+    <property name="maven3.interceptor" value="C:\Users\vtyag2\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-interceptor-1.12-alpha-1.jar"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_66\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Softwares\Selenium\apache-maven-3.3.9/bin;C:\Program Files\Java\jdk1.8.0_66/bin;C:\Program Files\Java\jdk1.8.0_66/bin;C:\Users\vtyag2\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\vtyag2\bin;C:\Ruby22-x64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;D:\Softwares\Selenium\apache-maven-3.3.9\bin;C:\Program Files\nodejs;C:\Program Files (x86)\scala\bin;C:\Program Files (x86)\HP\LeanFT\bin;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\Git\cmd;C:\Program Files\PuTTY;C:\Users\vtyag2\AppData\Local\Programs\Python\Python35\Scripts;C:\Users\vtyag2\AppData\Local\Programs\Python\Python35;C:\Program Files\Java\jdk1.8.0_66\bin;C:\Users\vtyag2\AppData\Roaming\npm;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Users\vtyag2\Desktop\Selenium\Training\Drivers\geckodriver;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="POM_GROUPID" value="com.Sakiv"/>
+    <property name="POM_ARTIFACTID" value="DataDrivenTestFramework"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="MINGW_PACKAGE_PREFIX" value="mingw-w64-x86_64"/>
+    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/DataDriverTestAutomationFramework/6/display/redirect"/>
+    <property name="VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
+    <property name="JENKINS_HOME" value="C:\Users\vtyag2\.jenkins"/>
+    <property name="BUILD_ID" value="6"/>
+    <property name="TEMP" value="C:\Users\vtyag2\AppData\Local\Temp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_66\jre\bin"/>
+    <property name="MSYSTEM_PREFIX" value="C:/Program Files/Git/mingw64"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.variant" value=""/>
+    <property name="PROCESSOR_REVISION" value="3d04"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="HUDSON_HOME" value="C:\Users\vtyag2\.jenkins"/>
+    <property name="COMSPEC" value="C:\Windows\system32\cmd.exe"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="D:\Softwares\Selenium\apache-maven-3.3.9/bin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_66"/>
+    <property name="SHELL" value="C:\Program Files\Git\usr\bin\bash.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="PROGRAMFILES" value="C:\Program Files"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="USERPROFILE" value="C:\Users\vtyag2"/>
+    <property name="JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/DataDriverTestAutomationFramework/display/redirect"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\vtyag2"/>
+    <property name="USERNAME" value="vtyag2"/>
+    <property name="_" value="C:/ProgramData/Oracle/Java/javapath/java"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERDNSDOMAIN" value="SAPIENT.COM"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="%SCALA_HOME%" value="C:\Program Files (x86)\scala"/>
+    <property name="COMMPath" value="C:\Program Files\Lenovo\Communications Utility"/>
+    <property name="user.dir" value="C:\Users\vtyag2\Desktop\Test_Automation\DataDrivenTestFramework"/>
+    <property name="SSH_ASKPASS" value="C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="TMP" value="C:\Users\vtyag2\AppData\Local\Temp"/>
+    <property name="UATDATA" value="C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77"/>
+    <property name="MINGW_PREFIX" value="C:/Program Files/Git/mingw64"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vm.version" value="25.66-b18"/>
+    <property name="java.class.path" value="C:\Users\vtyag2\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-agent-1.12-alpha-1.jar;D:\Softwares\Selenium\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;D:\Softwares\Selenium\apache-maven-3.3.9/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="WORKSPACE" value="C:\Users\vtyag2\.jenkins\workspace\DataDriverTestAutomationFramework"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="LANG" value="en_US.UTF-8"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.runtime.version" value="1.8.0_66-b18"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_66\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_66\jre\classes"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_66/bin"/>
+    <property name="user.country" value="US"/>
+    <property name="MSYSTEM_CHOST" value="x86_64-w64-mingw32"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="maven.home" value="D:\Softwares\Selenium\apache-maven-3.3.9"/>
+    <property name="EXEPATH" value="C:\Program Files\Git"/>
+    <property name="ORIGINAL_TMP" value="C:/Users/vtyag2/AppData/Local/Temp"/>
+    <property name="JOB_BASE_NAME" value="DataDriverTestAutomationFramework"/>
+    <property name="HOSTNAME" value="dluvtyag268797"/>
+    <property name="HOME" value="C:\Users\vtyag2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="WINDIR" value="C:\Windows"/>
+    <property name="POM_DISPLAYNAME" value="DataDrivenTestFramework"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+  </properties>
+  <testcase name="LoginAsBankManager" classname="com.Sakiv.TestCases.BankManagerLoginTest" time="2.127"/>
+  <testcase name="addCustomer" classname="com.Sakiv.TestCases.AddCustomerTest" time="1.041"/>
+  <testcase name="openAccount" classname="com.Sakiv.TestCases.OpenAccountTest" time="0.983"/>
+</testsuite>

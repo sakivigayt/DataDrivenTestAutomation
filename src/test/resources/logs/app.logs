@@ -1,0 +1,16 @@
+30/09/2017 10:33:50 devpinoyLogger config loaded
+30/09/2017 10:33:50 devpinoyLogger OR loaded
+30/09/2017 10:33:53 devpinoyLogger chrome launched
+30/09/2017 10:33:58 devpinoyLogger http://www.way2automation.com/angularjs-protractor/banking/#/login launched
+30/09/2017 10:34:00 devpinoyLogger navigated to bank manager page
+30/09/2017 10:34:00 devpinoyLogger By.xpath: html/body/div[3]/div/div[2]/div/div[1]/button[1]element present
+30/09/2017 10:34:01 devpinoyLogger Reading data from excel using Data provider
+30/09/2017 10:34:01 devpinoyLogger Reading data into Data object
+30/09/2017 10:34:01 devpinoyLogger Adding Customer
+30/09/2017 10:34:02 devpinoyLogger Customer Added
+30/09/2017 10:34:03 devpinoyLogger Reading data from excel using Data provider
+30/09/2017 10:34:03 devpinoyLogger Reading data into Data object
+30/09/2017 10:34:03 devpinoyLogger Opening Account
+30/09/2017 10:34:04 devpinoyLogger Account Open
+30/09/2017 10:34:05 devpinoyLogger inside tear down -- driver quit
+30/09/2017 10:34:05 devpinoyLogger Test suite Executed

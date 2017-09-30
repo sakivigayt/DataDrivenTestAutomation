@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Suite execution started]]>
+    </line>
+    <line>
+      <![CDATA[Test started]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to bank manager home page]]>
+    </line>
+    <line>
+      <![CDATA[Capturing screenshot]]>
+    </line>
+    <line>
+      <![CDATA[Suite executed]]>
+    </line>
+    <line>
+      <![CDATA[Suite execution started]]>
+    </line>
+    <line>
+      <![CDATA[Test started]]>
+    </line>
+    <line>
+      <![CDATA[Customer Added]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank"href="C:\Users\vtyag2\Desktop\WIP\Capture.png"><img src="C:\Users\vtyag2\Desktop\WIP\Capture.png"></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[Capturing screenshot]]>
+    </line>
+    <line>
+      <![CDATA[Suite executed]]>
+    </line>
+    <line>
+      <![CDATA[Suite execution started]]>
+    </line>
+    <line>
+      <![CDATA[Test started]]>
+    </line>
+    <line>
+      <![CDATA[Account Open]]>
+    </line>
+    <line>
+      <![CDATA[Capturing screenshot]]>
+    </line>
+  </reporter-output>
+  <suite name="DataDrivenFramework" duration-ms="5953" started-at="2017-09-28T09:54:43Z" finished-at="2017-09-28T09:54:49Z">
+    <groups>
+    </groups>
+    <test name="Bank Manager Login Test" duration-ms="2459" started-at="2017-09-28T09:54:43Z" finished-at="2017-09-28T09:54:46Z">
+      <class name="com.Sakiv.TestCases.BankManagerLoginTest">
+        <test-method status="PASS" signature="LoginAsBankManager()[pri:0, instance:com.Sakiv.TestCases.BankManagerLoginTest@3c77d488]" name="LoginAsBankManager" duration-ms="1193" started-at="2017-09-28T15:24:44Z" finished-at="2017-09-28T15:24:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to bank manager home page]]>
+            </line>
+            <line>
+              <![CDATA[Capturing screenshot]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginAsBankManager -->
+      </class> <!-- com.Sakiv.TestCases.BankManagerLoginTest -->
+    </test> <!-- Bank Manager Login Test -->
+    <test name="Add Customer Test" duration-ms="1408" started-at="2017-09-28T09:54:46Z" finished-at="2017-09-28T09:54:48Z">
+      <class name="com.Sakiv.TestCases.AddCustomerTest">
+        <test-method status="PASS" signature="addCustomer(java.util.Hashtable)[pri:0, instance:com.Sakiv.TestCases.AddCustomerTest@69e153c5]" name="addCustomer" duration-ms="705" started-at="2017-09-28T15:24:47Z" data-provider="dp" finished-at="2017-09-28T15:24:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{postCode=12345.0, lastName=Don, firstName=Sam}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test started]]>
+            </line>
+            <line>
+              <![CDATA[Customer Added]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank"href="C:\Users\vtyag2\Desktop\WIP\Capture.png"><img src="C:\Users\vtyag2\Desktop\WIP\Capture.png"></img></a>]]>
+            </line>
+            <line>
+              <![CDATA[Capturing screenshot]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+      </class> <!-- com.Sakiv.TestCases.AddCustomerTest -->
+    </test> <!-- Add Customer Test -->
+    <test name="Open Account" duration-ms="1407" started-at="2017-09-28T09:54:48Z" finished-at="2017-09-28T09:54:49Z">
+      <class name="com.Sakiv.TestCases.OpenAccountTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Sakiv.TestCases.OpenAccountTest@248e319b]" name="setUp" is-config="true" duration-ms="6880" started-at="2017-09-28T15:24:37Z" finished-at="2017-09-28T15:24:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openAccount(java.util.Hashtable)[pri:0, instance:com.Sakiv.TestCases.OpenAccountTest@248e319b]" name="openAccount" duration-ms="635" started-at="2017-09-28T15:24:48Z" data-provider="dp" finished-at="2017-09-28T15:24:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=Pound, customer=Harry Potter}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test started]]>
+            </line>
+            <line>
+              <![CDATA[Account Open]]>
+            </line>
+            <line>
+              <![CDATA[Capturing screenshot]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openAccount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Sakiv.TestCases.OpenAccountTest@248e319b]" name="tearDown" is-config="true" duration-ms="1038" started-at="2017-09-28T15:24:50Z" finished-at="2017-09-28T15:24:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Sakiv.TestCases.OpenAccountTest -->
+    </test> <!-- Open Account -->
+  </suite> <!-- DataDrivenFramework -->
+</testng-results>
